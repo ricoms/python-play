@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "python-play"
+version = "0.1.0"
+description = "Just a python package for playing until it messes up."
+authors = ["ricoms"]
+license = "Unlicensed"
+readme = "README.md"
+packages = [{include = "python_play"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
